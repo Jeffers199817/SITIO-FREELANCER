@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"googleTranslateExt.languages": [
+			"es",
+			"en",
+			"la"
+		],
+		"googleTranslateExt.replaceText": true,
+		"commentTranslate.source": "Google",
+		"commentTranslate.multiLineMerge": false
+	}
+}

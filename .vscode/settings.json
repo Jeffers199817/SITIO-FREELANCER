@@ -1,0 +1,17 @@
+{
+  "googleTranslateExt.languages": ["es", "en", "la"],
+  "googleTranslateExt.replaceText": true,
+  "commentTranslate.source": "Google",
+  "commentTranslate.multiLineMerge": false,
+  "prettier.enableDebugLogs": true,
+  "prettier.bracketSameLine": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.port": 5501
+}
