@@ -6,6 +6,11 @@
     <meta name="viewport" content="Width=Device-Width, initial-scale=1.0">
     <!--//Esto indica que la página se adapte a cualquier dispositivo-->
     <title>Diseñador Freelancer</title> <!--//Esto indica el título de la página-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link href="stylesheet" href="css/normalize.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
     <link rel="preload" href="css/styles.css" as="style">
     <link href="css/styles.css" rel="stylesheet">
 
@@ -13,19 +18,19 @@
 
 <body>
     <header>
-        <h1 id="titulo">Jefferson Alquinga <span>Freelancer</span></h1>
+        <h1 class="titulo">Jefferson Alquinga <span>Freelancer</span></h1>
     </header>
 
-
-    <nav>
+    <div class="nav-bg">
+    <nav class="navegacion-principal contenedor ">
         <a href="#">Inicio</a>
         <a href="#">Servicios</a>
         <a href="#">Contacto</a>
         <a href="#">Portafolio</a>
     </nav>
+    </div>
+    <h2 class="titulo">Diseño y Desarrollo Web <span>Freelancer</span></h2>
 
-    <h2 class="titulo">Diseño y Desarrollo Web Freelancer</h2>
-    <p>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88"
             viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffbf00" fill="none" stroke-linecap="round"
             stroke-linejoin="round">
@@ -33,7 +38,7 @@
             <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
             <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
         </svg>
-    </p>
+    
 
     <p>Ecuador, Quito</p>
     <a href="#"> Contactar</a>
@@ -133,8 +138,8 @@
                 <div>
                     <input type="submit" value="Enviar">
                 </div>
-                
-                </fieldset>
+
+            </fieldset>
 
         </form>
     </section>
